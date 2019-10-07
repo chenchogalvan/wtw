@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Satisfy&display=swap");
+
+$titulos: "Satisfy", cursive;
+$color-texto: #141414;
+
+body{
+    background:#f8fafc;
+}
+
+.mb-20{
+    margin-bottom: 20px!important;
+}
+.mt-20{
+    margin-top: 20px !important;
+}
+
+
+.slider{
+    height: 100vh;
+}
+
+.intro-services {
+  font-size: 2.8rem;
+  color: $color-texto;
+  padding-top: 12.6rem;
+  padding-bottom: 9rem;
+  text-align: center;
+  line-height: 50px;
+}
+
+span.title-span {
+  font-family: $titulos;
+}
+
+
+.section-services{
+    padding: 50px 0;
+    max-width: 100vw;
+    background-image: url(https://paymentx.io/images/bg_lline.svg);
+    background-position: 50% 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+//services
+.find_out_feature_wrap{
+    width: 370px;
+    padding-right: 32px;
+    padding-bottom: 74px;
+    padding-left: 32px;
+    border-radius: 10px;
+    background-color: #F6FBFB;
+}
+
+.feature-title{
+    font-family: $titulos;
+    font-size: 2.2rem;
+}
+
+.icon-feature{
+    margin-top: 0;
+}
+
+p.feature-desc{
+    color: rgba(21, 24, 40, 0.7);
+    font-size: 17px;
+}
