@@ -16,7 +16,7 @@
     </section>
 
 
-    <section class="section">
+    <section class="section" style="background:#fff;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 " style="min-height:75vh;">
@@ -99,12 +99,49 @@
 
 
 
-    <section class="section-about">
-        
+    <section class="split-section section-about">
+        <div class="side-background">
+            <div class="col-lg-6 img-side img-left">
+                <div class="img-holder img-cover" data-jarallax='{"speed": 0.6}'
+                    style="background-image: url(http://themes.potenzaglobalsolutions.com/html/webster-responsive-multi-purpose-html5-template/images/bg/09.jpg);">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="row justify-content-end">
+                <div class="col-lg-5">
+                    <div class="section-title">
+                        <h2 class="text-white title">About us</h2>
+                        <p class="text-white">Me encantaría contarte un poco sobre este proyecto que inició en diciembre 2017, a través de una plataforma en línea que me ha permitido conocer a mis clientes y a sus mascotas.
+                        </p>
+                        <p class="text-white">
+                            Te cuento que, al día de hoy, el 75% de los clientes que confían en mí el cuidado de sus mascotas, son regulares desde entonces. Nuestro equipo está conformado por amantes certificados de los animales.
+
+                        </p>
+
+                        <img class="mt-20" src="http://themes.potenzaglobalsolutions.com/html/webster-responsive-multi-purpose-html5-template/images/signature.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section-services">
+        <div class="container">
+
+            <div class="row">
+
+            </div>
+
+        </div>
     </section>
 
 
     <script src="/js/app.js"></script>
+    <script src="/js/animations.js"></script>
 </body>
 
 </html>

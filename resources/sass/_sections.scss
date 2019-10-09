@@ -2,6 +2,7 @@
 
 $titulos: "Satisfy", cursive;
 $color-texto: #141414;
+$black-bg :#323232;
 
 body{
     background:#f8fafc;
@@ -66,3 +67,24 @@ p.feature-desc{
     color: rgba(21, 24, 40, 0.7);
     font-size: 17px;
 }
+
+
+
+
+//about
+.section-about{
+    background: $black-bg;
+    padding: 80px 0;
+}
+
+h2.title{
+    font-size: 3rem;
+    font-family: $titulos;
+}
+
+.split-section { position: relative; z-index: 10; }
+.split-section .img-holder { position: absolute; top: 0; width: 100%; height: 100%; }
+.split-section .img-side.img-right { right: 0; }
+.split-section .img-side.img-left { left: 0; }
+.split-section .img-side { right: 0; padding: 0; position: absolute!important;  top: 0px; height: 100%; overflow: hidden; z-index: 100; }
+ .our-awesome-core .img-side { top:  20px;  }
