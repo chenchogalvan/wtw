@@ -1243,7 +1243,7 @@ function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterat
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\laragon\www\wtw\resources\js\animations.js */"./resources/js/animations.js");
+module.exports = __webpack_require__(/*! Z:\laragon\www\wtw\resources\js\animations.js */"./resources/js/animations.js");
 
 
 /***/ })
