@@ -10644,7 +10644,8 @@ a.text-dark:focus {
   }
 }
 
-body {
+body,
+html {
   background: #f8fafc;
 }
 
@@ -10656,8 +10657,11 @@ body {
   margin-top: 20px !important;
 }
 
-.slider {
-  height: 100vh;
+#content {
+  background-image: url(/images/creative-content-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
 }
 
 .intro-services {
@@ -10676,7 +10680,6 @@ span.title-span {
 .section-services {
   padding: 50px 0;
   max-width: 100vw;
-  background-image: url(https://paymentx.io/images/bg_lline.svg);
   background-position: 50% 100%;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -10688,7 +10691,6 @@ span.title-span {
   padding-bottom: 74px;
   padding-left: 32px;
   border-radius: 10px;
-  background-color: #F6FBFB;
 }
 
 .feature-title {
@@ -10747,6 +10749,72 @@ h2.title {
 
 .our-awesome-core .img-side {
   top: 20px;
+}
+
+.fullheight {
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.align-items-center {
+  align-items: center !important;
+}
+
+.pb-50 {
+  padding-bottom: 50px !important;
+}
+
+@media screen and (max-width: 767px) {
+  .d-flex > .lqd-column:not([class*=col-xs-]) {
+    width: 100%;
+  }
+}
+
+.ld-masked-image svg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.ld-masked-image svg defs,
+.ld-masked-image svg clipPath,
+.ld-masked-image svg path {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ld-masked-image figure {
+  background-position: -90% 10%;
+  background-size: 95%;
+}
+
+.ld-masked-image img {
+  width: 100%;
+  height: auto;
+  visibility: hidden;
+}
+
+@media (min-width: 768px) {
+  .ld-masked-image {
+    position: absolute;
+    right: -90vw;
+    left: 42vw;
+  }
+}
+
+@media (min-width: 992px) {
+  .ld-masked-image {
+    top: -58vh;
+    right: -65vw;
+    left: 5vw;
+  }
 }
 
 .testimonial {

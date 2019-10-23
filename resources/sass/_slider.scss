@@ -1,0 +1,142 @@
+.fullheight {
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.align-items-center {
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+}
+
+.pb-50 {
+    padding-bottom: 50px !important;
+}
+
+@media screen and (max-width: 767px) {
+    .d-flex>.lqd-column:not([class*=col-xs-]) {
+        width: 100%;
+    }
+}
+
+.ld-masked-image svg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.ld-masked-image svg defs, .ld-masked-image svg clipPath, .ld-masked-image svg path {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.ld-masked-image figure {
+    background-position: -90% 10%;
+    background-size: 95%;
+}
+
+.ld-masked-image img {
+    width: 100%;
+    height: auto;
+    visibility: hidden;
+}
+
+@media (min-width: 768px) {
+    .ld-masked-image {
+        position: absolute;
+        right: -90vw;
+        left: 42vw;
+    }
+}
+
+@media (min-width: 992px) {
+    .ld-masked-image {
+        top: -58vh;
+        right: -65vw;
+        left: 5vw;
+    }
+}
+
+
+// .slider .slider-blop {
+//   background: royalblue;
+//   height: 100%;
+//   width: 100%;
+//   padding: 0;
+//   margin: 0;
+// }
+
+// .slider .slider-text {
+//   background: red;
+//   height: 100%;
+//   width: 100%;
+// }
+
+// .blob {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   fill: #023f92;
+//   width: 50vmax;
+//   z-index: 1;
+//   transform: scale(1) translate(200px, -80px);
+//   transform-origin: 50% 50%;
+// }
+
+// @media screen and (max-width: 767px) {
+//     .d-flex>.lqd-column:not([class*=col-xs-]) {
+//         width: 100%;
+//     }
+// }
+
+// .ld-masked-image svg {
+//     width: 100%;
+//     height: 100%;
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     -o-object-fit: cover;
+//     object-fit: cover;
+// }
+
+// .ld-masked-image svg defs, .ld-masked-image svg clipPath, .ld-masked-image svg path {
+//     width: 100%;
+//     height: 100%;
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+// }
+
+// .ld-masked-image figure {
+//     background-position: -90% 10%;
+//     background-size: 95%;
+// }
+
+// .ld-masked-image img {
+//     width: 100%;
+//     height: auto;
+//     visibility: hidden;
+// }
+
+// @media (min-width: 768px) {
+//     .ld-masked-image {
+//         position: absolute;
+//         right: -90vw;
+//         left: 42vw;
+//     }
+// }
+
+// @media (min-width: 992px) {
+//     .ld-masked-image {
+//         top: -58vh;
+//         right: -65vw;
+//         left: 5vw;
+//     }
+// }

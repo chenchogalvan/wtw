@@ -4,9 +4,13 @@ $titulos: "Satisfy", cursive;
 $color-texto: #141414;
 $black-bg :#323232;
 
-body{
+body, html{
     background:#f8fafc;
 }
+
+
+
+
 
 .mb-20{
     margin-bottom: 20px!important;
@@ -15,10 +19,14 @@ body{
     margin-top: 20px !important;
 }
 
+#content {
+    background-image: url(/images/creative-content-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+  }
 
-.slider{
-    height: 100vh;
-}
+
 
 .intro-services {
   font-size: 2.8rem;
@@ -37,7 +45,6 @@ span.title-span {
 .section-services{
     padding: 50px 0;
     max-width: 100vw;
-    background-image: url(https://paymentx.io/images/bg_lline.svg);
     background-position: 50% 100%;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -51,7 +58,6 @@ span.title-span {
     padding-bottom: 74px;
     padding-left: 32px;
     border-radius: 10px;
-    background-color: #F6FBFB;
 }
 
 .feature-title{
