@@ -71,15 +71,6 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#works">
-                                                <span class="link-icon"></span>
-                                                <span class="link-txt">
-                                                    <span class="link-ext"></span>
-                                                    <span class="txt">Works</span>
-                                                </span>
-                                            </a>
-                                        </li>
-                                        <li>
                                             <a href="#services">
                                                 <span class="link-icon"></span>
                                                 <span class="link-txt">
@@ -93,7 +84,7 @@
                                                 <span class="link-icon"></span>
                                                 <span class="link-txt">
                                                     <span class="link-ext"></span>
-                                                    <span class="txt">About</span>
+                                                    <span class="txt">About Denisse</span>
                                                 </span>
                                             </a>
                                         </li>
@@ -107,11 +98,20 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#news">
+                                            <a href="#location">
                                                 <span class="link-icon"></span>
                                                 <span class="link-txt">
                                                     <span class="link-ext"></span>
-                                                    <span class="txt">News</span>
+                                                    <span class="txt">Locations</span>
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#contact">
+                                                <span class="link-icon"></span>
+                                                <span class="link-txt">
+                                                    <span class="link-ext"></span>
+                                                    <span class="txt">Make an appointment</span>
                                                 </span>
                                             </a>
                                         </li>
@@ -145,7 +145,7 @@
                         </div>
                         <div class="ld-fancy-heading mask-text ">
                             <h1>
-                                <span class="ld-fh-txt"> Love has four paws</span>
+                                {{-- <span class="ld-fh-txt"> Love has four paws</span> --}}
                             </h1>
                         </div>
                         <div class="row">
@@ -185,7 +185,7 @@
             </section>
 
 
-            <section class="vc_row pt-80 pb-30" id="services">
+            <section class="vc_row pt-30 pb-60" id="services">
                 <div class="container">
                     <div class="row">
                         <div class="lqd-column col-lg-12">
@@ -203,7 +203,7 @@
 
 
 
-            <section class="vc_row pt-30 pb-60">
+            <section class="vc_row pt-30 pb-60" ">
                 <div class="container">
                     <div class="row" data-custom-animations="true"
                         data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":"1200","delay":"180","initValues":{"scale":0.8,"opacity":0},"animations":{"scale":1,"opacity":1}}'>
@@ -237,9 +237,8 @@
                                     </span>
                                 </div>
                                 <div class="contents">
-                                    <h3 class="mb-2">Newest technology</h3>
-                                    <p>Produce the highest quality work and services for every client, on every
-                                        project</p>
+                                    <h3 class="mb-2">Dog walking</h3>
+                                    <p>Solo and pack walks, 30 minutes, 1 hour</p>
                                 </div>
                             </div>
                         </div>
@@ -282,9 +281,9 @@
                                     </span>
                                 </div>
                                 <div class="contents">
-                                    <h3 class="mb-2">Attention to details</h3>
-                                    <p>Produce the highest quality work and services for every client, on every
-                                        project</p>
+                                    <h3 class="mb-2">Pet concierge </h3>
+                                    <p>Pet taxi for grooming appointments, vet visits and
+                                        more</p>
                                 </div>
                             </div>
                         </div>
@@ -324,9 +323,8 @@
                                     </span>
                                 </div>
                                 <div class="contents">
-                                    <h3 class="mb-2">Newest technology</h3>
-                                    <p>Produce the highest quality work and services for every client, on every
-                                        project</p>
+                                    <h3 class="mb-2">Outdoor excursions</h3>
+                                    <p>Extended group walks, hiking and doggie parks</p>
                                 </div>
                             </div>
                         </div>
@@ -372,9 +370,8 @@
                                     </span>
                                 </div>
                                 <div class="contents">
-                                    <h3 class="mb-2">Honest pricing</h3>
-                                    <p>Produce the highest quality work and services for every client, on every
-                                        project</p>
+                                    <h3 class="mb-2">Doggie Day Care</h3>
+                                    <p>Home-based daycare</p>
                                 </div>
                             </div>
                         </div>
@@ -383,78 +380,8 @@
             </section>
 
 
-            {{-- <section class="section-services">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="card-img center-card row text-center">
-                                <div class="col-lg-4 mb-20">
-                                    <div class="find_out_feature_wrap">
-                                        <img src="https://paymentx.io/images/f_ic_01.svg"
-                                            alt="Set up repeat instructions" class="icon-feature">
-                                        <h3 class="feature-title">Dog walking</h3>
-                                        <p class="feature-desc">Solo and pack walks, 30 minutes, 1 hour</p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 mb-20">
-                                    <div class="find_out_feature_wrap">
-                                        <img src="https://paymentx.io/images/f_ic_01.svg"
-                                            alt="Set up repeat instructions" class="icon-feature">
-                                        <h3 class="feature-title">Drop in visits </h3>
-                                        <p class="feature-desc">25 minutes visits for cats and small animals</p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 mb-20">
-                                    <div class="find_out_feature_wrap">
-                                        <img src="https://paymentx.io/images/f_ic_01.svg"
-                                            alt="Set up repeat instructions" class="icon-feature">
-                                        <h3 class="feature-title">Boarding & Sitting </h3>
-                                        <p class="feature-desc">Personalized boarding/sitting in sitters or owner
-                                            home
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="card-img center-card row text-center">
-                                <div class="col-lg-4 mb-20">
-                                    <div class="find_out_feature_wrap">
-                                        <img src="https://paymentx.io/images/f_ic_01.svg"
-                                            alt="Set up repeat instructions" class="icon-feature">
-                                        <h3 class="feature-title">Pet concierge </h3>
-                                        <p class="feature-desc">Pet taxi for grooming appointments, vet visits and
-                                            more
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 mb-20">
-                                    <div class="find_out_feature_wrap">
-                                        <img src="https://paymentx.io/images/f_ic_01.svg"
-                                            alt="Set up repeat instructions" class="icon-feature">
-                                        <h3 class="feature-title">Outdoor excursions</h3>
-                                        <p class="feature-desc">Extended group walks, hiking and doggie parks</p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 mb-20">
-                                    <div class="find_out_feature_wrap">
-                                        <img src="https://paymentx.io/images/f_ic_01.svg"
-                                            alt="Set up repeat instructions" class="icon-feature">
-                                        <h3 class="feature-title">Doggie Day Care </h3>
-                                        <p class="feature-desc">Home-based daycare</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </section> --}}
-
-            <section class="vc_row pt-60 pb-90">
+            <section class="vc_row pt-60 pb-90"id="about">
                 <div class="container">
                     <div class="row d-flex flex-wrap align-items-center">
                         <div class="lqd-column col-lg-5 col-md-6 mb-5 mb-md-0" data-custom-animations="true"
@@ -499,52 +426,6 @@
 
 
 
-            {{-- <section class="split-section section-about">
-                <div class="side-background">
-                    <div class="col-lg-6 img-side img-left">
-                        <div class="img-holder img-cover" data-jarallax='{"speed": 0.6}'
-                            style="background-image: url(http://themes.potenzaglobalsolutions.com/html/webster-responsive-multi-purpose-html5-template/images/bg/09.jpg);">
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="container">
-                    <div class="row justify-content-end">
-                        <div class="col-lg-5">
-                            <div class="section-title">
-                                <h2 class="text-white title">About us</h2>
-                                <p class="text-white">Me encantaría contarte un poco sobre este proyecto que inició
-                                    en
-                                    diciembre
-                                    2017, a través de una plataforma en línea que me ha permitido conocer a mis
-                                    clientes
-                                    y a
-                                    sus
-                                    mascotas.
-                                </p>
-                                <p class="text-white">
-                                    Te cuento que, al día de hoy, el 75% de los clientes que confían en mí el
-                                    cuidado de
-                                    sus
-                                    mascotas, son regulares desde entonces. Nuestro equipo está conformado por
-                                    amantes
-                                    certificados de los animales.
-
-                                </p>
-
-                                <img class="mt-20"
-                                    src="http://themes.potenzaglobalsolutions.com/html/webster-responsive-multi-purpose-html5-template/images/signature.png"
-                                    alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section> --}}
-
-
-
-
             <section class="vc_row pt-200 pb-100" id="testimonials">
                 <div class="container">
                     <div class="row">
@@ -565,7 +446,12 @@
                                             class="testimonial testimonial-whole-filled testimonial-whole-shadowed text-left testimonial-details-sm testimonial-avatar-sm">
                                             <div class="testimonial-quote">
                                                 <blockquote>
-                                                    <p class="font-size-16 lh-185">Denise is the BEST! She took excellent care of my dog and provided incredible updates, along with photos, every day. She took him to the dog park and made him part of her family while we were away. I highly recommend her to anyone who wants to the peace of mind that your pup is in excellent hands when you can't be there</p>
+                                                    <p class="font-size-16 lh-185">Denise is the BEST! She took
+                                                        excellent care of my dog and provided incredible updates, along
+                                                        with photos, every day. She took him to the dog park and made
+                                                        him part of her family while we were away. I highly recommend
+                                                        her to anyone who wants to the peace of mind that your pup is in
+                                                        excellent hands when you can't be there</p>
                                                 </blockquote>
                                             </div>
                                             <div class="testimonial-details">
@@ -585,7 +471,12 @@
                                             class="testimonial testimonial-whole-filled testimonial-whole-shadowed text-left testimonial-details-sm testimonial-avatar-sm">
                                             <div class="testimonial-quote">
                                                 <blockquote>
-                                                    <p class="font-size-16 lh-185">Denise and Jon did a great job taking care of my dog Mozzie! Denise took very detailed notes during our meet and greet before I book his stay with them, and she provided updates complete with pictures and video so I could know how he was doing. We will be using their services again.</p>
+                                                    <p class="font-size-16 lh-185">Denise and Jon did a great job taking
+                                                        care of my dog Mozzie! Denise took very detailed notes during
+                                                        our meet and greet before I book his stay with them, and she
+                                                        provided updates complete with pictures and video so I could
+                                                        know how he was doing. We will be using their services again.
+                                                    </p>
                                                 </blockquote>
                                             </div>
                                             <div class="testimonial-details">
@@ -605,7 +496,11 @@
                                             class="testimonial testimonial-whole-filled testimonial-whole-shadowed text-left testimonial-details-sm testimonial-avatar-sm">
                                             <div class="testimonial-quote">
                                                 <blockquote>
-                                                    <p class="font-size-16 lh-185">Denise was amazing with my dog Winston. She took special notice to little things that would make him more comfortable. She sent lots of pictures and checked in often which made being away from him, a little easier! Definitely will book again.</p>
+                                                    <p class="font-size-16 lh-185">Denise was amazing with my dog
+                                                        Winston. She took special notice to little things that would
+                                                        make him more comfortable. She sent lots of pictures and checked
+                                                        in often which made being away from him, a little easier!
+                                                        Definitely will book again.</p>
                                                 </blockquote>
                                             </div>
                                             <div class="testimonial-details">
@@ -628,79 +523,9 @@
             </section>
 
 
-            <!--<section class="section-services">
-                <div class="container">
 
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="owl-carousel owl-theme">
-                                <div class="item">
-                                    <div class="testimonial">
-                                        {{-- <div class="testimonial-avatar"> <img alt="" src="images/team/03.jpg"> </div> --}}
-                                        <div class="testimonial-info"> Denise is the BEST! She took excellent care
-                                            of my
-                                            dog
-                                            and
-                                            provided incredible updates, along with photos, every day. She took him
-                                            to
-                                            the
-                                            dog
-                                            park and made him part of her family while we were away. I highly
-                                            recommend
-                                            her
-                                            to
-                                            anyone who wants to the peace of mind that your pup is in excellent
-                                            hands
-                                            when
-                                            you
-                                            can't be there</div>
-                                        <div class="author-info"> <strong>- <span>Name 1</span> </strong> </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="testimonial">
-                                        {{-- <div class="testimonial-avatar"> <img alt="" src="images/team/03.jpg"> </div> --}}
-                                        <div class="testimonial-info"> Denise and Jon did a great job taking care of
-                                            my
-                                            dog
-                                            Mozzie! Denise took very detailed notes during our meet and greet before
-                                            I
-                                            book
-                                            his
-                                            stay with them, and she provided updates complete with pictures and
-                                            video so
-                                            I
-                                            could
-                                            know how he was doing. We will be using their services again.</div>
-                                        <div class="author-info"> <strong>- <span>Sarah H.</span></strong> </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="testimonial">
-                                        {{-- <div class="testimonial-avatar"> <img alt="" src="images/team/03.jpg"> </div> --}}
-                                        <div class="testimonial-info"> Denise was amazing with my dog Winston. She
-                                            took
-                                            special
-                                            notice to little things that would make him more comfortable. She sent
-                                            lots
-                                            of
-                                            pictures and checked in often which made being away from him, a little
-                                            easier!
-                                            Definitely will book again.</div>
-                                        <div class="author-info"> <strong>- <span>Gabby B </span></strong> </div>
-                                    </div>
-                                </div>
 
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </section>-->
-
-    </div>
-
-    </main>
+        </main>
     </div>
 
 
