@@ -141,6 +141,7 @@ body { font-family: 'Roboto', sans-serif; font-size: 1em; line-height: 1.7; font
 /*
 	Base Styles
 */
+
 #wrap, #content { position: relative; }
 
 #content { z-index: 2; -webkit-transition: -webkit-transform 0.3s; transition: -webkit-transform 0.3s; transition: transform 0.3s; transition: transform 0.3s, -webkit-transform 0.3s; background-color: #fff; }
@@ -555,7 +556,7 @@ figure + .ld-cart-product-details { margin-left: 15px; }
 .main-nav > li > a:hover, .main-nav > li > a:focus { background-color: transparent; }
 .main-nav > li.active > a, .main-nav > li.current-menu-item > a, .main-nav > li > a:hover { color: #181b31; }
 .main-nav .link-txt { position: relative; }
-.main-nav .link-txt .txt { position: relative; z-index: 2; }
+.main-nav .link-txt .txt { position: relative; z-index: 2; color: #000;}
 .main-nav .link-ext { z-index: 0; }
 .main-nav.justify-content-lg-end { margin-right: 0; }
 .main-nav.justify-content-lg-start { margin-left: 0; }
@@ -4714,7 +4715,7 @@ body.search .no-results .search-form input[type=submit] { background-color: var(
   .secondarybar-row > [class^=col].text-right { -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; }
   .secondarybar-row > [class^=col].text-center { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
   .secondarybar-row > [class^=col].text-left { -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; }
-  .is-stuck { background-color: rgba(0, 0, 0, 0.75); -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07); box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07); -webkit-backdrop-filter: blur(20px) saturate(180%); backdrop-filter: blur(20px) saturate(180%); }
+  .is-stuck { background-color: rgba(255, 255, 255, 0.75); -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07); box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07); -webkit-backdrop-filter: blur(20px) saturate(180%); backdrop-filter: blur(20px) saturate(180%); }
   .is-stuck .ld-module-search-visible-form .ld-search-form input { color: #fff; border-color: rgba(255, 255, 255, 0.2); }
   .is-stuck .social-icon a, .is-stuck .header-module .ld-module-trigger, .is-stuck .main-nav > li > a { color: rgba(255, 255, 255, 0.8) !important; }
   .is-stuck .social-icon a:hover, .is-stuck .main-nav > li > a:hover, .is-stuck .ld-module-search-visible-form .input-icon { color: #fff !important; }
@@ -7430,3 +7431,6 @@ body.search .no-results .search-form input[type=submit] { background-color: var(
 /*# sourceMappingURL=theme.min.css.map */
 
 
+:root{--color-primary: #fe688b;--color-secondary: #f9b851;--color-gradient-start: #fe688b;--color-gradient-stop: #000b96}body{font-family:poppins,sans-serif;font-size:15px;line-height:1.9em;color:#828282}
+main#content{background-image:url(/images/creative-content-bg.png)!important;background-repeat:no-repeat;background-size:cover;background-position:center top;}
+h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6 .h6{font-family:poppins,'sans-serif';font-weight:700;color:#000}.h1,h1{font-size:52px;line-height:1.4em}.h2,h2{font-size:42px;line-height:1.3em;letter-spacing:0}.h3,h3{font-size:30px;line-height:1.6em}.h4,h4{font-size:25px;line-height:1.7em}.h5,h5{font-size:21px;line-height:1.8em}.h6,h6{font-size:18px;line-height:1.6em}.btn-solid{background-color:#3d59e8;border-color:#3d59e8}.btn-solid:hover{background-color:var(--color-primary);border-color:var(--color-primary)}.main-nav>li>a{font-size:16px;font-weight:400;letter-spacing:.05em;color:#858694}.main-nav>li.is-active>a,.main-nav>li.current-menu-item>a,.main-nav>li:hover>a,.main-nav>li>a:hover{color:#fe688b}.main-footer{color:#808291}.main-footer a:not(.btn){color:#808291}.main-footer a:not(.btn):hover{color:#fe688b}@media(min-width:1200px){.main-header .is-stuck{background:#fff!important}.mainbar-wrap.is-stuck .social-icon a,.mainbar-wrap.is-stuck .header-module .ld-module-trigger,.mainbar-wrap.is-stuck .main-nav>li>a,.mainbar-wrap.is-stuck .ld-module-search-visible-form .ld-search-form input{color:rgba(0,0,0,.7)!important}.mainbar-wrap.is-stuck .social-icon a:hover,.mainbar-wrap.is-stuck .main-nav>li>a:hover{color:#000!important}}
