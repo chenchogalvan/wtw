@@ -169,8 +169,8 @@
                                         <path fill="black"
                                             d="M131,40 C84.135,83.534 96.819,148.446 63.283,217.394 C31.508,282.723 -3.621,324.812 1.461,394.323 C3.451,421.533 12.117,449.828 29.796,480.002 C87.412,578.34 -15.301,663.448 94.611,833.387 C156.302,928.77 316.559,918.015 435.971,936.052 C572.741,956.711 653.384,1003.601 753.566,971.715 C877.689,932.209 924.99262,809.932822 972.63862,707.700822 C1063.84662,512.000822 1038.71071,197.732895 884.476705,67.2268952 C788.919705,-13.6291048 714.704,70.008 529,43 C339.693,15.468 212.609,-35.808 131,40 Z"
                                             pathdata:id="
-                                                            M175.270836,26.7977911 C128.405836,70.3317911 129.938279,144.739124 96.4022789,213.687124 C64.6272789,279.016124 41.242383,286.071679 46.324383,355.582679 C48.314383,382.792679 79.5246278,459.251586 88.7738696,492.334164 C116.497714,591.496483 -75.3047466,680.552915 34.6072534,850.491915 C96.2982534,945.874915 281.559,906.015 400.971,924.052 C537.741,944.711 678.161685,902.348368 778.343685,870.462368 C902.466685,830.956368 927.354,806.232 975,704 C1066.208,508.3 1058.68971,185.848951 904.455709,55.3429506 C808.898709,-25.5130494 786.027661,117.60054 600.323661,90.5925401 C411.016661,63.0605401 256.879836,-49.0102089 175.270836,26.7977911 Z;
-                                                            M200.391256,6 C138.06059,22.7990703 77.9622177,42.6445401 44.4262177,111.59254 C12.6512177,176.92154 -4.1051307,212.01786 0.976869296,281.52886 C2.9668693,308.73886 99.0297526,534.545109 108.278994,567.627688 C136.002839,666.790006 -29.1381304,721.523368 80.7738696,891.462368 C142.46487,986.845368 331.636556,840.153183 451.048556,858.190183 C587.818556,878.849183 705.371102,948.496676 805.553102,916.610676 C929.676102,877.104676 941.497784,689.3436 989.143784,587.1116 C1080.35178,391.4116 1050.68971,206.848951 896.455709,76.3429506 C800.898709,-4.5130494 778.027661,138.60054 592.323661,111.59254 C403.016661,84.0605401 312.765712,-24.2866392 200.391256,6 Z" />
+                                                                    M175.270836,26.7977911 C128.405836,70.3317911 129.938279,144.739124 96.4022789,213.687124 C64.6272789,279.016124 41.242383,286.071679 46.324383,355.582679 C48.314383,382.792679 79.5246278,459.251586 88.7738696,492.334164 C116.497714,591.496483 -75.3047466,680.552915 34.6072534,850.491915 C96.2982534,945.874915 281.559,906.015 400.971,924.052 C537.741,944.711 678.161685,902.348368 778.343685,870.462368 C902.466685,830.956368 927.354,806.232 975,704 C1066.208,508.3 1058.68971,185.848951 904.455709,55.3429506 C808.898709,-25.5130494 786.027661,117.60054 600.323661,90.5925401 C411.016661,63.0605401 256.879836,-49.0102089 175.270836,26.7977911 Z;
+                                                                    M200.391256,6 C138.06059,22.7990703 77.9622177,42.6445401 44.4262177,111.59254 C12.6512177,176.92154 -4.1051307,212.01786 0.976869296,281.52886 C2.9668693,308.73886 99.0297526,534.545109 108.278994,567.627688 C136.002839,666.790006 -29.1381304,721.523368 80.7738696,891.462368 C142.46487,986.845368 331.636556,840.153183 451.048556,858.190183 C587.818556,878.849183 705.371102,948.496676 805.553102,916.610676 C929.676102,877.104676 941.497784,689.3436 989.143784,587.1116 C1080.35178,391.4116 1050.68971,206.848951 896.455709,76.3429506 C800.898709,-4.5130494 778.027661,138.60054 592.323661,111.59254 C403.016661,84.0605401 312.765712,-24.2866392 200.391256,6 Z" />
                                     </clipPath>
                                 </defs>
                             </svg>
@@ -204,7 +204,7 @@
 
 
             <section class="vc_row pt-30 pb-60" ">
-                <div class=" container">
+                    <div class=" container">
                 <div class="row" data-custom-animations="true"
                     data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":"1200","delay":"180","initValues":{"scale":0.8,"opacity":0},"animations":{"scale":1,"opacity":1}}'>
                     <div class="lqd-column col-md-6">
@@ -284,6 +284,94 @@
                                 <h3 class="mb-2">Pet concierge </h3>
                                 <p>Pet taxi for grooming appointments, vet visits and
                                     more</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lqd-column col-md-6">
+                        <div class="iconbox iconbox-side iconbox-semiround iconbox-shadow iconbox-heading-sm iconbox-filled"
+                            id="ld_icon_box_5c4e9c4475e70" data-plugin-options='{"color":"#f9b851"}'>
+                            <div class="iconbox-icon-wrap">
+                                <span class="iconbox-icon-container">
+                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px"
+                                        height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64"
+                                        xml:space="preserve">
+                                        <defs xmlns="http://www.w3.org/2000/svg">
+                                            <linearGradient gradientUnits="userSpaceOnUse" id="grad81353" x1="0%"
+                                                y1="0%" x2="0%" y2="100%">
+                                                <stop offset="0%" stop-color="rgb(249, 184, 81)"></stop>
+                                                <stop offset="100%" stop-color="rgb(249, 184, 81)"></stop>
+                                            </linearGradient>
+                                        </defs>
+                                        <path fill="none" stroke="url(#grad81353)" stroke-width="2"
+                                            stroke-miterlimit="10"
+                                            d="M32.001,0.887c17.184,0,31.113,13.929,31.112,31.113 C63.114,49.185,49.184,63.115,32,63.113C14.815,63.114,0.887,49.185,0.888,32.001C0.885,14.816,14.815,0.887,32.001,0.887z">
+                                        </path>
+                                        <line fill="none" stroke="url(#grad81353)" stroke-width="2"
+                                            stroke-miterlimit="10" x1="32" y1="1" x2="32" y2="63"></line>
+                                        <line fill="none" stroke="url(#grad81353)" stroke-width="2"
+                                            stroke-miterlimit="10" x1="63" y1="32" x2="1" y2="32"></line>
+                                        <path fill="none" stroke="url(#grad81353)" stroke-width="2"
+                                            stroke-miterlimit="10" d="M30,1c0,0-14,11-14,31s14,31,14,31"></path>
+                                        <path fill="none" stroke="url(#grad81353)" stroke-width="2"
+                                            stroke-miterlimit="10" d="M34,1c0,0,14,11,14,31S34,63,34,63"></path>
+                                        <path fill="none" stroke="url(#grad81353)" stroke-width="2"
+                                            stroke-miterlimit="10" d="M8,12c0,0,5,10,24,10s24-10,24-10"></path>
+                                        <path fill="none" stroke="url(#grad81353)" stroke-width="2"
+                                            stroke-miterlimit="10" d="M8,52c0,0,5-10,24-10s24,10,24,10"></path>
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="contents">
+                                <h3 class="mb-2">Outdoor excursions</h3>
+                                <p>Extended group walks, hiking and doggie parks</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lqd-column col-md-6">
+                        <div class="iconbox iconbox-side iconbox-semiround iconbox-shadow iconbox-heading-sm iconbox-filled"
+                            id="ld_icon_box_5c4e9c4475e71" data-plugin-options='{"color":"#fe688b"}'>
+                            <div class="iconbox-icon-wrap">
+                                <span class="iconbox-icon-container">
+                                    <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px"
+                                        height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64"
+                                        xml:space="preserve">
+                                        <defs xmlns="http://www.w3.org/2000/svg">
+                                            <linearGradient gradientUnits="userSpaceOnUse" id="grad611408" x1="0%"
+                                                y1="0%" x2="0%" y2="100%">
+                                                <stop offset="0%" stop-color="rgb(254, 104, 139)"></stop>
+                                                <stop offset="100%" stop-color="rgb(254, 104, 139)"></stop>
+                                            </linearGradient>
+                                        </defs>
+                                        <circle fill="none" stroke="url(#grad611408)" stroke-width="2"
+                                            stroke-miterlimit="10" cx="44" cy="38" r="19"></circle>
+                                        <circle fill="none" stroke="url(#grad611408)" stroke-width="2"
+                                            stroke-miterlimit="10" cx="44" cy="38" r="13"></circle>
+                                        <polyline fill="none" stroke="url(#grad611408)" stroke-width="2"
+                                            stroke-miterlimit="10" points="30,51 1,51 1,57 38,57 38,56 ">
+                                        </polyline>
+                                        <polyline fill="none" stroke="url(#grad611408)" stroke-width="2"
+                                            stroke-miterlimit="10" points="27,45 3,45 3,51 30,51 "></polyline>
+                                        <polyline fill="none" stroke="url(#grad611408)" stroke-width="2"
+                                            stroke-miterlimit="10" points="26,39 5,39 5,45 27,45 "></polyline>
+                                        <polyline fill="none" stroke="url(#grad611408)" stroke-width="2"
+                                            stroke-miterlimit="10" points="26,33 1,33 1,39 26,39 "></polyline>
+                                        <polyline fill="none" stroke="url(#grad611408)" stroke-width="2"
+                                            stroke-miterlimit="10" points="29,27 3,27 3,33 26,33 "></polyline>
+                                        <polyline fill="none" stroke="url(#grad611408)" stroke-width="2"
+                                            stroke-miterlimit="10" points="35,21 1,21 1,27 29,27 "></polyline>
+                                        <polyline fill="none" stroke="url(#grad611408)" stroke-width="2"
+                                            stroke-miterlimit="10" points="40,20 40,15 3,15 3,21 35,21 ">
+                                        </polyline>
+                                        <rect x="1" y="9" fill="none" stroke="url(#grad611408)" stroke-width="2"
+                                            stroke-miterlimit="10" width="37" height="6"></rect>
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="contents">
+                                <h3 class="mb-2">Doggie Day Care</h3>
+                                <p>Home-based daycare</p>
                             </div>
                         </div>
                     </div>
@@ -523,43 +611,77 @@
     </section>
 
 
-    <div class="vc_row pt-120 pb-120 bg-cover bg-center" style="background-image: url(/images/pets-2.jpg);">
+
+
+
+    <div class="vc_row pt-120 mt-50 pb-120 bg-cover bg-center" style="background-image: url(/images/pets-2.jpg);">
         <div class="liquid-row-overlay liquid-row-overlay-hover" style="background:rgba(22, 22, 22, 0.45)"></div>
         <div class="liquid-row-overlay" style="background:rgba(22, 22, 22, 0.15)"></div>
         <div class="container">
             <div class="row">
-                <div class="lqd-column col-md-5">
-                    <div class="contact-form contact-form-inputs-filled contact-form-button-block font-size-14">
-                        <form action="assets/php/mailer.php" method="post" novalidate="novalidate">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <input class="bg-gray text-dark" type="text" name="name" aria-required="true"
-                                        aria-invalid="false" placeholder="First Name" required>
+                <div class="lqd-column col-md-5 col-xs-12 px-md-4 text-center">
+                    <div class="lqd-column-inner bg-white border-radius-6 px-3 px-md-4 pt-40 pb-40">
+                        <header class="fancy-title">
+                            <h2 class="mb-2 font-size-30 font-weight-light">Contact us</h2>
+                            <p class="mt-0">Si tienes alguna duda o aclaración, ponte en contacto con nosotros por el
+                                siguiente medio:
+                            </p>
+                        </header>
+                        <div class="contact-form contact-form-inputs-filled contact-form-button-block font-size-14">
+                            <form action="assets/php/mailer.php" method="post" novalidate="novalidate">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <input class="bg-gray text-dark" type="text" name="name" aria-required="true"
+                                            aria-invalid="false" placeholder="Name" required>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <input class="bg-gray text-dark" type="email" name="email" aria-required="true"
+                                            aria-invalid="false" placeholder="Phone number" required>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <input class="bg-gray text-dark" type="tel" name="mobile" aria-required="true"
+                                            aria-invalid="false" placeholder="E-mail" required>
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <textarea class="bg-gray text-dark" type="text" name="description"
+                                            aria-required="true" aria-invalid="false" placeholder="Your message"
+                                            required></textarea>
+                                    </div>
+                                    <div class="col-md-12 text-md-right">
+                                        <input type="submit" value="Submit form">
+                                    </div>
                                 </div>
-                                <div class="col-md-12">
-                                    <input class="bg-gray text-dark" type="email" name="email" aria-required="true"
-                                        aria-invalid="false" placeholder="Your email address" required>
-                                </div>
-                                <div class="col-md-12">
-                                    <input class="bg-gray text-dark" type="tel" name="mobile" aria-required="true"
-                                        aria-invalid="false" placeholder="Mobile no" required>
-                                </div>
-                                <div class="col-md-12 text-md-right">
-                                    <input type="submit" value="Submit form">
-                                </div>
-                            </div>
-                        </form>
-                        <div class="contact-form-result hidden"></div>
+                            </form>
+                            <div class="contact-form-result hidden"></div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
+    </div>
+
 
 
 
     </main>
+
+    <footer class="main-footer pt-80">
+        <section class="bt-fade-white-015 pt-30 pb-30">
+            <div class="container">
+                <div class="row">
+                    <div class="lqd-column col-md-6 col-md-offset-3 text-center">
+                        <figure class="mb-40">
+                            <img src="/images/logo.png" alt="Logo" style="height:60px;">
+                        </figure>
+                        <p>© 2019 Welcome to Woof.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
     </div>
 
 
