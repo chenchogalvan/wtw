@@ -189,7 +189,7 @@
             </section>
 
 
-            <section class="vc_row pt-30 pb-60" id="services">
+            <section class="vc_row pt-120 pb-60" id="services">
                 <div class="container">
                     <div class="row">
                         <div class="lqd-column col-lg-12">
@@ -479,8 +479,7 @@
                 <div class="lqd-column col-lg-5 col-md-6 mb-5 mb-md-0" data-custom-animations="true"
                     data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":1200,"delay":160,"initValues":{"translateY":50,"opacity":0},"animations":{"translateY":0,"opacity":1}}'>
                     <header class="fancy-title mb-60">
-                        <h6 class="text-uppercase ltr-sp-2 font-size-12 font-weight-semibold text-secondary">HOW
-                            WE WORK</h6>
+                        <h6 class="text-uppercase ltr-sp-2 font-size-12 font-weight-semibold text-secondary">Denise Vazquez</h6>
                         <h2 class="mt-4 mb-4">About us</h2>
                         <p>Me encantaría contarte un poco sobre este proyecto que inició
                             en
