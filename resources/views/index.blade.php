@@ -327,8 +327,8 @@
                                 </span>
                             </div>
                             <div class="contents">
-                                <h3 class="mb-2">Outdoor excursions</h3>
-                                <p>Extended group walks, hiking and doggie parks</p>
+                                <h3 class="mb-2">Boarding & Sitting </h3>
+                                <p>Personalized boarding/sitting in sitters or owner home</p>
                             </div>
                         </div>
                     </div>
@@ -374,8 +374,8 @@
                                 </span>
                             </div>
                             <div class="contents">
-                                <h3 class="mb-2">Doggie Day Care</h3>
-                                <p>Home-based daycare</p>
+                                <h3 class="mb-2">Dog walking </h3>
+                                <p>Solo and pack walks, 30 minutes, 1 hour</p>
                             </div>
                         </div>
                     </div>
