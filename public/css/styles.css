@@ -928,7 +928,7 @@ figure + .ld-cart-product-details { margin-left: 15px; }
 /* Button */
 .btn { display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; padding: 0; position: relative; border: 1px solid var(--color-primary); border-radius: 0; font-size: 1em; white-space: nowrap; color: var(--color-primary); -webkit-transition: all .3s ease; transition: all .3s ease; -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0.05), 0 0 0 rgba(0, 0, 0, 0.05), 0 0 0 rgba(0, 0, 0, 0.05), 0 0 0 rgba(0, 0, 0, 0.05), 0 0 0 rgba(0, 0, 0, 0.05); box-shadow: 0 0 0 rgba(0, 0, 0, 0.05), 0 0 0 rgba(0, 0, 0, 0.05), 0 0 0 rgba(0, 0, 0, 0.05), 0 0 0 rgba(0, 0, 0, 0.05), 0 0 0 rgba(0, 0, 0, 0.05); }
 .btn > span, .btn strong, .btn i { -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.22, 0.665, 0.34, 0.875); transition: -webkit-transform 0.3s cubic-bezier(0.22, 0.665, 0.34, 0.875); transition: transform 0.3s cubic-bezier(0.22, 0.665, 0.34, 0.875); transition: transform 0.3s cubic-bezier(0.22, 0.665, 0.34, 0.875), -webkit-transform 0.3s cubic-bezier(0.22, 0.665, 0.34, 0.875); }
-.btn > span { display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; padding: 1.15em 2.1em; border-radius: inherit; border-color: inherit; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-flow: row wrap; flex-flow: row wrap; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+.btn > span { display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; padding: 1.15em 2.1em; border-radius: inherit; border-color: inherit; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-flow: row wrap; flex-flow: row wrap; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin: 0 auto;}
 .btn.text-uppercase { letter-spacing: .1em; }
 .btn.semi-round { border-radius: 2px; }
 .btn.round { border-radius: 4px; }
@@ -1020,6 +1020,7 @@ figure + .ld-cart-product-details { margin-left: 15px; }
 
 /* Button Styles */
 .btn-solid { background: var(--color-primary); color: #fff; }
+.btn-solid-2 { background: var(--color-primary); color: #fff; width: 100%;}
 .btn-solid.color-secondary { background-color: #4fda90; border-color: #4fda90; }
 .btn-solid.color-secondary .btn-gradient-bg { background: -webkit-gradient(linear, left top, right top, from(var(--color-gradient-start-secondary)), to(var(--color-gradient-stop-secondary))); background: linear-gradient(to right, var(--color-gradient-start-secondary) 0%, var(--color-gradient-stop-secondary) 100%); }
 .btn-solid:hover { color: #fff; }
@@ -7431,7 +7432,7 @@ body.search .no-results .search-form input[type=submit] { background-color: var(
 /*# sourceMappingURL=theme.min.css.map */
 
 
-:root{--color-primary: #fe688b;--color-secondary: #f9b851;--color-gradient-start: #fe688b;--color-gradient-stop: #000b96}body{font-family:poppins,sans-serif;font-size:15px;line-height:1.9em;color:#828282}
+:root{--color-primary: #42C5AE;--color-secondary: #f9b851;--color-gradient-start: #fe688b;--color-gradient-stop: #000b96}body{font-family:poppins,sans-serif;font-size:15px;line-height:1.9em;color:#828282}
 main#content{background-image:url(/images/creative-content-bg.png)!important;background-repeat:no-repeat;background-size:cover;background-position:center top;}
 h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6 .h6{font-family:poppins,'sans-serif';font-weight:700;color:#000}.h1,h1{font-size:52px;line-height:1.4em}.h2,h2{font-size:42px;line-height:1.3em;letter-spacing:0}.h3,h3{font-size:30px;line-height:1.6em}.h4,h4{font-size:25px;line-height:1.7em}.h5,h5{font-size:21px;line-height:1.8em}.h6,h6{font-size:18px;line-height:1.6em}.btn-solid{background-color:#3d59e8;border-color:#3d59e8}.btn-solid:hover{background-color:var(--color-primary);border-color:var(--color-primary)}.main-nav>li>a{font-size:16px;font-weight:400;letter-spacing:.05em;color:#858694}.main-nav>li.is-active>a,.main-nav>li.current-menu-item>a,.main-nav>li:hover>a,.main-nav>li>a:hover{color:#fe688b}.main-footer{color:#808291}.main-footer a:not(.btn){color:#808291}.main-footer a:not(.btn):hover{color:#fe688b}@media(min-width:1200px){.main-header .is-stuck{background:rgba(255, 255, 255, 0.75)!important}.mainbar-wrap.is-stuck .social-icon a,.mainbar-wrap.is-stuck .header-module .ld-module-trigger,.mainbar-wrap.is-stuck .main-nav>li>a,.mainbar-wrap.is-stuck .ld-module-search-visible-form .ld-search-form input{color:rgba(0,0,0,.7)!important}.mainbar-wrap.is-stuck .social-icon a:hover,.mainbar-wrap.is-stuck .main-nav>li>a:hover{color:#000!important}}
 

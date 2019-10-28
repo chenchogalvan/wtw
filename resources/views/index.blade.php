@@ -12,7 +12,8 @@
 
     <link rel="stylesheet" href="/css/styles.css">
     <script src="https://kit.fontawesome.com/15a0d76b97.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
 
     {{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet"
@@ -653,11 +654,16 @@
                                     </div>
                                     <div class="col-md-12 text-md-right">
                                         <input type="submit" value="Submit form">
-
-                                        <button type="button" class="btn btn-primary" data-toggle="modal"
-                                            data-target="#exampleModal" data-whatever="@fat">Open modal for
-                                            @fat</button>
-
+                                    </div>
+                                    <div class="col-md-12 text-center" style="margin-top:25px;">
+                                        <a href="{{ route('appointment') }}"
+                                            class="btn btn-solid-2 text-uppercase font-size-14 font-weight-semibold"
+                                            data-localscroll="true"
+                                            data-localscroll-options='{"scrollBelowSection":true}' target="_blank">
+                                            <span>
+                                                <span class="btn-txt">Hacer una cita</span>
+                                            </span>
+                                        </a>
                                     </div>
                                 </div>
                             </form>
@@ -697,123 +703,6 @@
 
 
 
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h2 class="font-size-30 font-weight-light">Make a reservation!</h2>
-                </div>
-                <div class="modal-body">
-                    <div class="contact-form contact-form-inputs-filled contact-form-button-block font-size-14">
-                        <form action="assets/php/mailer.php" method="post" novalidate="novalidate">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <input class="bg-gray text-dark" type="text" name="name" aria-required="true"
-                                        aria-invalid="false" placeholder="Name" required>
-                                </div>
-                                <div class="col-md-12">
-                                    <input class="bg-gray text-dark" type="email" name="email" aria-required="true"
-                                        aria-invalid="false" placeholder="Email" required>
-                                </div>
-                                <div class="col-md-12">
-                                    <input class="bg-gray text-dark" type="tel" name="mobile" aria-required="true"
-                                        aria-invalid="false" placeholder="Phone number" required>
-                                </div>
-
-                                <div class="col-md-12">
-                                    <input type="text" class="bg-gray text-dark" id="datepicker1" placeholder="Select Start Date">
-                                </div>
-
-                                <div class="col-md-12">
-                                    <input type="text" class="bg-gray text-dark" id="datepicker2" placeholder="Select End Date">
-                                </div>
-
-                                <div class="col-md-12">
-                                    <input class="bg-gray text-dark" type="tel" name="mobile" aria-required="true"
-                                        aria-invalid="false" placeholder="Phone number" required>
-                                </div>
-
-                                <div class="col-md-12">
-                                    <select name="service" class="form-control"" >
-                                        <option value=" Pet boarding">Pet boarding - I need a place to stay!</option>
-                                        <option value="Pet walks">Pet walks - I need a walk!</option>
-                                        <option value="Pet sitting">Pet sitting - I don’t want to be alone!</option>
-                                        <option value="Drop in visits">Drop in visits - Come hang with me!</option>
-                                    </select>
-                                </div>
-
-                                <div class="col-md-12" style="padding-left:30px; padding-bottom:20px;">
-                                    <label for="">Type of pets: </label><br>
-                                    <label class="radio-inline">
-                                        <input type="radio" class="material_radio" name="typePet" id="inlineRadio1" value="option1">
-                                        CAT
-                                    </label>
-                                    <label class="radio-inline">
-                                        <input type="radio" class="material_radio" name="typePet" id="inlineRadio2" value="option2">
-                                        DOG
-                                    </label>
-                                    <label class="radio-inline">
-                                        <input type="radio" class="material_radio" name="typePet" id="inlineRadio3" value="option3">
-                                        OTHER
-                                    </label>
-                                </div>
-                                <div class="col-md-12" style="padding-left:30px; padding-bottom:20px;">
-                                    <label for="">Spayed/Neutered: </label><br>
-                                    <label class="radio-inline">
-                                        <input type="radio" class="material_radio" name="Spayed/Neutered" id="inlineRadio1" value="option1">
-                                        Yes
-                                    </label>
-                                    <label class="radio-inline">
-                                        <input type="radio" class="material_radio" name="Spayed/Neutered" id="inlineRadio2" value="option2">
-                                        No
-                                    </label>
-                                </div>
-
-                                <div class="col-md-12" style="padding-left:30px; padding-bottom:20px;">
-                                    <label for="">People friendly: </label><br>
-                                    <label class="radio-inline">
-                                        <input type="radio" class="material_radio" name="PeopleFriendly" id="inlineRadio1" value="option1">
-                                        Yes
-                                    </label>
-                                    <label class="radio-inline">
-                                        <input type="radio" class="material_radio" name="PeopleFriendly" id="inlineRadio2" value="option2">
-                                        No
-                                    </label>
-                                </div>
-                                <div class="col-md-12" style="padding-left:30px; padding-bottom:20px;">
-                                    <label for="">Dog friendly: </label><br>
-                                    <label class="radio-inline">
-                                        <input type="radio" class="material_radio" name="DogFriendly" id="inlineRadio1" value="option1">
-                                        Yes
-                                    </label>
-                                    <label class="radio-inline">
-                                        <input type="radio" class="material_radio" name="DogFriendly" id="inlineRadio2" value="option2">
-                                        No
-                                    </label>
-                                </div>
-                                <div class="col-md-12 text-md-right">
-                                    <input type="submit" value="Submit form">
-
-                                </div>
-                            </div>
-                        </form>
-                        <div class="contact-form-result hidden"></div>
-
-
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button"
-                        class="btn btn-solid text-uppercase btn-bordered border-thin font-size-14 font-weight-semibold"
-                        data-dismiss="modal">
-                        <span>
-                            <span class="btn-txt">Cerrar</span>
-                        </span>
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
 
     {{-- <script src="/js/app.js"></script>
     <script src="/js/animations.js"></script>
@@ -824,11 +713,16 @@
 
     <script src="/js/gsap.js"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/locales/bootstrap-datepicker.es.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js">
+    </script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/locales/bootstrap-datepicker.es.min.js">
+    </script>
+
+
 
     <script type="text/javascript">
-    $(document).ready(function() {
+        $(document).ready(function() {
 
 $('#datepicker1').datetimepicker({
     format: 'dd/mm/yyyy'
