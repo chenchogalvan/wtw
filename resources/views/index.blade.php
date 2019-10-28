@@ -101,7 +101,7 @@
                                                 </span>
                                             </a>
                                         </li>
-                                        <li>
+                                        {{-- <li>
                                             <a href="#location">
                                                 <span class="link-icon"></span>
                                                 <span class="link-txt">
@@ -109,7 +109,7 @@
                                                     <span class="txt">Locations</span>
                                                 </span>
                                             </a>
-                                        </li>
+                                        </li> --}}
                                         <li>
                                             <a href="#contact">
                                                 <span class="link-icon"></span>
@@ -617,65 +617,69 @@
 
 
 
+    <section id="contact">
+        <div class="vc_row pt-120 mt-50 pb-120 bg-cover bg-center" style="background-image: url(/images/pets-2.jpg);">
+            <div class="liquid-row-overlay liquid-row-overlay-hover" style="background:rgba(22, 22, 22, 0.45)"></div>
+            <div class="liquid-row-overlay" style="background:rgba(22, 22, 22, 0.15)"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="lqd-column col-md-5 col-xs-12 px-md-4 text-center">
+                        <div class="lqd-column-inner bg-white border-radius-6 px-3 px-md-4 pt-40 pb-40">
+                            <header class="fancy-title">
+                                <h2 class="mb-2 font-size-30 font-weight-light">Contact us</h2>
+                                <p class="mt-0">Si tienes alguna duda o aclaración, ponte en contacto con nosotros por
+                                    el
+                                    siguiente medio:
+                                </p>
+                            </header>
+                            <div class="contact-form contact-form-inputs-filled contact-form-button-block font-size-14">
+                                <form action="assets/php/mailer.php" method="post" novalidate="novalidate">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <input class="bg-gray text-dark" type="text" name="name"
+                                                aria-required="true" aria-invalid="false" placeholder="Name" required>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <input class="bg-gray text-dark" type="email" name="email"
+                                                aria-required="true" aria-invalid="false" placeholder="Phone number"
+                                                required>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <input class="bg-gray text-dark" type="tel" name="mobile"
+                                                aria-required="true" aria-invalid="false" placeholder="E-mail" required>
+                                        </div>
 
-    <div class="vc_row pt-120 mt-50 pb-120 bg-cover bg-center" style="background-image: url(/images/pets-2.jpg);">
-        <div class="liquid-row-overlay liquid-row-overlay-hover" style="background:rgba(22, 22, 22, 0.45)"></div>
-        <div class="liquid-row-overlay" style="background:rgba(22, 22, 22, 0.15)"></div>
-        <div class="container">
-            <div class="row">
-                <div class="lqd-column col-md-5 col-xs-12 px-md-4 text-center">
-                    <div class="lqd-column-inner bg-white border-radius-6 px-3 px-md-4 pt-40 pb-40">
-                        <header class="fancy-title">
-                            <h2 class="mb-2 font-size-30 font-weight-light">Contact us</h2>
-                            <p class="mt-0">Si tienes alguna duda o aclaración, ponte en contacto con nosotros por el
-                                siguiente medio:
-                            </p>
-                        </header>
-                        <div class="contact-form contact-form-inputs-filled contact-form-button-block font-size-14">
-                            <form action="assets/php/mailer.php" method="post" novalidate="novalidate">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <input class="bg-gray text-dark" type="text" name="name" aria-required="true"
-                                            aria-invalid="false" placeholder="Name" required>
+                                        <div class="col-md-12">
+                                            <textarea class="bg-gray text-dark" type="text" name="description"
+                                                aria-required="true" aria-invalid="false" placeholder="Your message"
+                                                required></textarea>
+                                        </div>
+                                        <div class="col-md-12 text-md-right">
+                                            <input type="submit" value="Submit form">
+                                        </div>
+                                        <div class="col-md-12 text-center" style="margin-top:25px;">
+                                            <a href="{{ route('appointment') }}"
+                                                class="btn btn-solid-2 text-uppercase font-size-14 font-weight-semibold"
+                                                data-localscroll="true"
+                                                data-localscroll-options='{"scrollBelowSection":true}' target="_blank">
+                                                <span>
+                                                    <span class="btn-txt">Hacer una cita</span>
+                                                </span>
+                                            </a>
+                                        </div>
                                     </div>
-                                    <div class="col-md-12">
-                                        <input class="bg-gray text-dark" type="email" name="email" aria-required="true"
-                                            aria-invalid="false" placeholder="Phone number" required>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <input class="bg-gray text-dark" type="tel" name="mobile" aria-required="true"
-                                            aria-invalid="false" placeholder="E-mail" required>
-                                    </div>
-
-                                    <div class="col-md-12">
-                                        <textarea class="bg-gray text-dark" type="text" name="description"
-                                            aria-required="true" aria-invalid="false" placeholder="Your message"
-                                            required></textarea>
-                                    </div>
-                                    <div class="col-md-12 text-md-right">
-                                        <input type="submit" value="Submit form">
-                                    </div>
-                                    <div class="col-md-12 text-center" style="margin-top:25px;">
-                                        <a href="{{ route('appointment') }}"
-                                            class="btn btn-solid-2 text-uppercase font-size-14 font-weight-semibold"
-                                            data-localscroll="true"
-                                            data-localscroll-options='{"scrollBelowSection":true}' target="_blank">
-                                            <span>
-                                                <span class="btn-txt">Hacer una cita</span>
-                                            </span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </form>
-                            <div class="contact-form-result hidden"></div>
+                                </form>
+                                <div class="contact-form-result hidden"></div>
 
 
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+
+    </section>
 
     </div>
 
