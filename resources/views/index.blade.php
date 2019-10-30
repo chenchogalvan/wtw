@@ -25,6 +25,8 @@
 <body data-mobile-nav-trigger-alignment="right" data-mobile-nav-align="left" data-mobile-nav-style="modern"
     data-mobile-nav-shceme="gray" data-mobile-header-scheme="gray" data-mobile-nav-breakpoint="1199">
 
+    <div id="page-loader"><span class="preloader-interior"><img src="/images/loader/loader.png" alt=""></span></div>
+
     <div id="wrap">
         <header class="main-header main-header-overlay" data-sticky-header="true"
             data-sticky-options='{ "stickyTrigger": "first-section" }'>
@@ -586,12 +588,11 @@
 
 
     <script type="text/javascript">
-        $(document).ready(function() {
+    jQuery(window).load(function(){
+        jQuery('#page-loader').fadeOut(500);
+    });
 
-$('#datepicker1').datetimepicker({
-    format: 'dd/mm/yyyy'
-});
-});
+
     </script>
 
 </body>
