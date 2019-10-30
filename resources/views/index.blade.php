@@ -236,9 +236,8 @@
                                 </span>
                             </div>
                             <div class="contents">
-                                <h3 class="mb-2">Pet concierge </h3>
-                                <p>Pet taxi for grooming appointments, vet visits and
-                                    more</p>
+                                <h3 class="mb-2">Drop in visits </h3>
+                                <p>25 minutes visits for cats and small animals</p>
                             </div>
                         </div>
                     </div>
@@ -267,8 +266,9 @@
                                 </span>
                             </div>
                             <div class="contents">
-                                <h3 class="mb-2">Dog walking </h3>
-                                <p>Solo and pack walks, 30 minutes, 1 hour</p>
+                                <h3 class="mb-2">Pet concierge </h3>
+                                <p>Pet taxi for grooming appointments, vet visits and
+                                    more</p>
                             </div>
                         </div>
                     </div>
