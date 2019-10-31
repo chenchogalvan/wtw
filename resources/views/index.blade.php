@@ -90,7 +90,7 @@
                                                 <span class="link-icon"></span>
                                                 <span class="link-txt">
                                                     <span class="link-ext"></span>
-                                                    <span class="txt">About Denisse</span>
+                                                    <span class="txt">About Denise</span>
                                                 </span>
                                             </a>
                                         </li>
@@ -253,7 +253,7 @@
                                 </span>
                             </div>
                             <div class="contents">
-                                <h3 class="mb-2">Boarding & Sitting </h3>
+                                <h3 class="mb-2">Pet Sitting </h3>
                                 <p>Personalized boarding/sitting in sitters or owner home</p>
                             </div>
                         </div>
@@ -284,8 +284,8 @@
                                 </span>
                             </div>
                             <div class="contents">
-                                <h3 class="mb-2">Outdoor excursions</h3>
-                                <p>Extended group walks, hiking and doggie parks</p>
+                                <h3 class="mb-2">Training</h3>
+                                <p>Train your pet to learn great stuffs</p>
                             </div>
                         </div>
                     </div>
@@ -367,8 +367,8 @@
                         <h2 class="mt-4 mb-4">What they said</h2>
                     </header>
                 </div>
-                <div class="lqd-column col-md-12">
-                    <div class="carousel-container carousel-nav-left px-5 mx-5">
+                <div class="lqd-column col-md-12" >
+                    <div class="carousel-container carousel-nav-left">
                         <div class="row">
                             <div class="col-md-3 col-xs-12 mb-4 mb-md-0">
                                 <div class="carousel-items row testimonials-details w-100 row"
