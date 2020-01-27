@@ -4396,7 +4396,7 @@ ol.breadcrumb.text-darker a:hover { color: #000; }
 .lqd-column:hover .liquid-column-overlay-hover { opacity: 1; }
 .lqd-column:hover .liquid-column-overlay-hover + .liquid-column-overlay { opacity: 0; }
 
-@media screen and (min-width: 1200px) { .stretch-to-right { margin-right: -22vw !important; }
+@media screen and (min-width: 1200px) { .stretch-to-right { margin-right: -10vw !important; }
   .stretch-to-left { margin-left: -22vw !important; } }
 @media screen and (max-width: 767px) { .d-flex > .lqd-column:not([class*=col-xs-]) { width: 100%; } }
 /* 4.3. Rows */

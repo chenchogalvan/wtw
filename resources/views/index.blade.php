@@ -319,19 +319,12 @@
                         <h6 class="text-uppercase ltr-sp-2 font-size-12 font-weight-semibold text-secondary">Denise
                             Vazquez</h6>
                         <h2 class="mt-4 mb-4">About us</h2>
-                        <p>Me encantaría contarte un poco sobre este proyecto que inició
-                            en
-                            diciembre
-                            2017, a través de una plataforma en línea que me ha permitido conocer a mis
-                            clientes
-                            y a
-                            sus
-                            mascotas.</p>
-                        <P>Te cuento que, al día de hoy, el 75% de los clientes que confían en mí el cuidado de
-                            sus mascotas, son regulares desde entonces. Nuestro equipo está conformado por
-                            amantes certificados de los animales.
 
-                        </P>
+
+                        <p>I would love to let you know about this project that started in December 2017, through an online platform that has allowed me to meet my clients and their pets.</p>
+                        <p>We organized everything through the platform, however, I decided to start my own company since I realized that I am completely in love with what I do and I decided to become independent.</p>
+                        <p>Today, 90% of our customers who trust me take care of their pets, are regular since then. I make sure that our team is made up of certified animal lovers.</p>
+
                     </header>
 
                 </div>
@@ -373,7 +366,7 @@
                             <div class="col-md-3 col-xs-12 mb-4 mb-md-0">
                                 <div class="carousel-items row testimonials-details w-100 row"
                                     data-lqd-flickity='{ "asNavFor": ".carousel-quotes-1", "rightToLeft": true }'>
-                                    <div class="col-md-4 col-sm-3 col-xs-4">
+                                    {{-- <div class="col-md-4 col-sm-3 col-xs-4">
                                         <div
                                             class="testimonial testimonial-lg testimonial-details-sm text-right testimonials-details-only ">
                                             <div class="testimonial-details">
@@ -383,11 +376,10 @@
                                                 </figure>
                                                 <div class="testimonial-info">
                                                     <h5 class="">Name 1</h5>
-                                                    {{-- <h6>Founder</h6> --}}
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> --}}
                                     <div class="col-md-4 col-sm-3 col-xs-4">
                                         <div
                                             class="testimonial testimonial-lg testimonial-details-sm text-right testimonials-details-only ">
@@ -423,7 +415,7 @@
                             <div class="col-md-8 col-md-offset-1 col-xs-offset-0 col-xs-12">
                                 <div class="carousel-items row testimonials-quotes row carousel-quotes-1"
                                     data-lqd-flickity='{ "prevNextButtons": true, "navStyle": 2, "navOffsets": { "nav": { "left": 15 } }, "rightToLeft": true }'>
-                                    <div class="col-xs-12">
+                                    {{-- <div class="col-xs-12">
                                         <div
                                             class="testimonial testimonial-lg testimonial-details-sm text-left testimonials-quote-only">
                                             <div class="testimonial-quote">
@@ -437,7 +429,7 @@
                                                 </blockquote>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> --}}
                                     <div class="col-xs-12">
                                         <div
                                             class="testimonial testimonial-lg testimonial-details-sm text-left testimonials-quote-only">
@@ -525,7 +517,19 @@
                                                 data-localscroll="true"
                                                 data-localscroll-options='{"scrollBelowSection":true}' target="_blank">
                                                 <span>
-                                                    <span class="btn-txt">Hacer una cita</span>
+                                                    <span class="btn-txt">MAKE AN APPOINTMENT</span>
+                                                </span>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-md-12 text-center" style="margin-top:25px;">
+                                            <a href="https://wa.me/18184728107"
+                                                class="btn btn-solid-2 text-uppercase font-size-14 font-weight-semibold"
+                                                data-localscroll="true"
+                                                data-localscroll-options='{"scrollBelowSection":true}' target="_blank">
+
+                                                <span>
+                                                    <span class="btn-txt" style="display:inline-block">Whatsapp</span>
                                                 </span>
                                             </a>
                                         </div>
