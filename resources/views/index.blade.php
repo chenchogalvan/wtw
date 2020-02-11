@@ -321,9 +321,13 @@
                         <h2 class="mt-4 mb-4">About us</h2>
 
 
-                        <p>I would love to let you know about this project that started in December 2017, through an online platform that has allowed me to meet my clients and their pets.</p>
-                        <p>We organized everything through the platform, however, I decided to start my own company since I realized that I am completely in love with what I do and I decided to become independent.</p>
-                        <p>Today, 90% of our customers who trust me take care of their pets, are regular since then. I make sure that our team is made up of certified animal lovers.</p>
+                        <p>I would love to let you know about this project that started in December 2017, through an
+                            online platform that has allowed me to meet my clients and their pets.</p>
+                        <p>We organized everything through the platform, however, I decided to start my own company
+                            since I realized that I am completely in love with what I do and I decided to become
+                            independent.</p>
+                        <p>Today, 90% of our customers who trust me take care of their pets, are regular since then. I
+                            make sure that our team is made up of certified animal lovers.</p>
 
                     </header>
 
@@ -360,7 +364,7 @@
                         <h2 class="mt-4 mb-4">What they said</h2>
                     </header>
                 </div>
-                <div class="lqd-column col-md-12" >
+                <div class="lqd-column col-md-12">
                     <div class="carousel-container carousel-nav-left">
                         <div class="row">
                             <div class="col-md-3 col-xs-12 mb-4 mb-md-0">
@@ -385,8 +389,7 @@
                                             class="testimonial testimonial-lg testimonial-details-sm text-right testimonials-details-only ">
                                             <div class="testimonial-details">
                                                 <figure class="avatar mb-2">
-                                                        <img src="/images/services/service-5.svg"
-                                                        alt="Ivana Jones" />
+                                                    <img src="/images/services/service-5.svg" alt="Ivana Jones" />
                                                 </figure>
                                                 <div class="testimonial-info">
                                                     <h5 class="">Sarah H.</h5>
@@ -400,8 +403,7 @@
                                             class="testimonial testimonial-lg testimonial-details-sm text-right testimonials-details-only ">
                                             <div class="testimonial-details">
                                                 <figure class="avatar mb-2">
-                                                        <img src="/images/services/service-2.svg"
-                                                        alt="Ivana Jones" />
+                                                    <img src="/images/services/service-2.svg" alt="Ivana Jones" />
                                                 </figure>
                                                 <div class="testimonial-info">
                                                     <h5 class="">Gabby B</h5>
@@ -436,10 +438,11 @@
                                             <div class="testimonial-quote">
                                                 <blockquote class="font-size-18 lh-225">
                                                     <p>Denise and Jon did a great job taking
-                                                care of my dog Mozzie! Denise took very detailed notes during
-                                                our meet and greet before I book his stay with them, and she
-                                                provided updates complete with pictures and video so I could
-                                                know how he was doing. We will be using their services again.</p>
+                                                        care of my dog Mozzie! Denise took very detailed notes during
+                                                        our meet and greet before I book his stay with them, and she
+                                                        provided updates complete with pictures and video so I could
+                                                        know how he was doing. We will be using their services again.
+                                                    </p>
                                                 </blockquote>
                                             </div>
                                         </div>
@@ -450,10 +453,10 @@
                                             <div class="testimonial-quote">
                                                 <blockquote class="font-size-18 lh-225">
                                                     <p>Denise was amazing with my dog
-                                                Winston. She took special notice to little things that would
-                                                make him more comfortable. She sent lots of pictures and checked
-                                                in often which made being away from him, a little easier!
-                                                Definitely will book again.</p>
+                                                        Winston. She took special notice to little things that would
+                                                        make him more comfortable. She sent lots of pictures and checked
+                                                        in often which made being away from him, a little easier!
+                                                        Definitely will book again.</p>
                                                 </blockquote>
                                             </div>
                                         </div>
@@ -509,7 +512,9 @@
                                                 required></textarea>
                                         </div>
                                         <div class="col-md-12 text-md-right">
-                                            <input type="submit" value="Submit form">
+                                            <input type="submit"
+                                                style="font-weight:600 !important; text-transform:uppercase;"
+                                                value="Submit form">
                                         </div>
                                         <div class="col-md-12 text-center" style="margin-top:25px;">
                                             <a href="{{ route('appointment') }}"
@@ -554,7 +559,7 @@
 
     </main>
 
-    <footer class="main-footer pt-80">
+    {{-- <footer class="main-footer pt-80">
         <section class="bt-fade-white-015 pt-30 pb-30">
             <div class="container">
                 <div class="row">
@@ -563,6 +568,29 @@
                             <img src="/images/logo.png" alt="Logo" style="height:60px;">
                         </figure>
                         <p>© 2019 Welcome to Woof.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer> --}}
+
+    <footer class="main-footer pt-120 pb-80">
+        <section class="vc_row pt-60">
+            <div class="container">
+                <div class="row d-flex flex-wrap align-items-center">
+                    <div class="lqd-column col-md-8 d-flex flex-wrap align-items-center">
+                        <figure class="mr-3">
+                            <img src="/images/logo.png" alt="Welcome to Woof Logo" style="height:60px;">
+                        </figure>
+                        <p class="font-size-16 my-0">Copyright 2020 <span
+                                class="text-primary font-weight-bold">Welcome to woof</span>. All Rights Reserved. <br> <a href="tel:+18184728107">Phone: +1 818 472 8107
+                                </a> | <a href="mailto:hello@welcometowoof.com">Email: hello@welcometowoof.com</a></p>
+                    </div>
+                    <div class="lqd-column col-md-4 text-md-right">
+                        <ul class="social-icon social-icon-md mb-25">
+                            <li><a href="https://www.instagram.com/welcometowoof/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="https://wa.me/18184728107" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -592,7 +620,7 @@
 
 
     <script type="text/javascript">
-    jQuery(window).load(function(){
+        jQuery(window).load(function(){
         jQuery('#page-loader').fadeOut(500);
     });
 
